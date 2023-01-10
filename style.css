@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.registration-form{
+    display: flex;
+    justify-content: space-around;
+}
+
+main{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.out{
+    padding: 15px;
+    float: right;
+}
