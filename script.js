@@ -25,6 +25,7 @@ send.addEventListener("click", () => {
 
     if(loginStr === checkerStr){
         alert("Login successful")
+        window.location.href = "main.html"
     }else{
         username.value = empty;
         pass.value = empty;

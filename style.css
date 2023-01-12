@@ -1,6 +1,4 @@
 *{
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
@@ -19,4 +17,9 @@ main{
 .out{
     padding: 15px;
     float: right;
+}
+
+.cont{
+    display: flex;
+    justify-content: space-between;
 }
